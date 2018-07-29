@@ -3,4 +3,4 @@ python:
   - "3.6"
 script:
   - pytest
-  - pylint
+  - pylint test_init.py
