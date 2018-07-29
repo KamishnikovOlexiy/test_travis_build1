@@ -2,5 +2,5 @@ language: python
 python:
   - "3.6"
 script:
+  - pylint test_init.py some_file_req.py
   - pytest
-  - pylint test_init.py
